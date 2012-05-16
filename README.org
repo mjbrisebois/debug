@@ -11,7 +11,7 @@
    : // log level 1 message
    : debug.log("hello world", 1)
 
-*** Mehods
+*** Methods
     These are the currently working methods:
 
     | log( message [, level] )                  | log a regular message                                              |
