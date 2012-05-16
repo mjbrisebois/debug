@@ -10,3 +10,25 @@
        
    : // log level 1 message
    : debug.log("hello world", 1)
+
+*** Mehods
+    These are the currently working methods:
+
+    | log( message [, level] )                  | log a regular message                                              |
+    | warn( message [, level] )                 | log a warning message                                              |
+    | debug( message [, level] )                | log a debugging message                                            |
+    | error( message [, level] )                | log an error message                                               |
+    | setLogUrl()                               | set the url to the server log (currently only supports websockets) |
+    | socketLog( message, level, type )         | send message to server log                                         |
+    | setCount( counter, num)                   | set a counter to a specific number                                 |
+    | doCount( counter )                        | increment a counter by 1                                           |
+    | getCount( counter )                       | get the current count for a counter                                |
+    | setLevel()                                | set the logging level                                              |
+    | getLevel()                                | get the current logging level                                      |
+    | group( group [, callback] [, collapsed] ) | start a console group                                              |
+    | startTime( group )                        | start a timer for a group                                          |
+    | getTime( group )                          | get the elapsed time for a group                                   |
+    | stopTime( group )                         | stop a timer for a group                                           |
+
+    
+  
