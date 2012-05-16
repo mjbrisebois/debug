@@ -7,7 +7,7 @@
    : // debug configurations
    : debug.setSocketUrl("ws://localhost:8600/log")
    : .setLevel(1)
-       
+   :
    : // log level 1 message
    : debug.log("hello world", 1)
 
