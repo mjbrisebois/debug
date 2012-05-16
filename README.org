@@ -1,0 +1,15 @@
+
+* Javascript Debugging Library
+  debug.js is a debugging library for browser based applications.
+
+** Documentation
+   Basic usage:
+   
+   #+begin_example
+       // debug configurations
+       debug.setSocketUrl("ws://localhost:8600/log")
+           .setLevel(1)
+       
+       // log level 1 message
+       debug.log("hello world", 1)
+   #+end_example
