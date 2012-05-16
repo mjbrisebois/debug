@@ -4,18 +4,9 @@
 
 ** Documentation
    Basic usage:
-       // debug configurations
-       debug.setSocketUrl("ws://localhost:8600/log")
-           .setLevel(1)
+   : // debug configurations
+   : debug.setSocketUrl("ws://localhost:8600/log")
+   : .setLevel(1)
        
-       // log level 1 message
-       debug.log("hello world", 1)
-   
-   #+begin_example
-       // debug configurations
-       debug.setSocketUrl("ws://localhost:8600/log")
-           .setLevel(1)
-       
-       // log level 1 message
-       debug.log("hello world", 1)
-   #+end_example
+   : // log level 1 message
+   : debug.log("hello world", 1)
